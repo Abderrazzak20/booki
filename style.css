@@ -3,6 +3,10 @@
 *{
    box-sizing: border-box;
    font-family: "raleway",sans-serif;
+
+}
+.blue{
+   color:#0065FC;
 }
 body{
    margin: auto;
@@ -34,16 +38,11 @@ body{
   }
 
 nav a:hover {
-border-top: 1rem solid blue;
+border-top: 1rem solid #0065FC;
 margin:0;
 
 }
 
-
-.signup{
-   font-weight: bold;
-   color: blue;
-}
 
 .sub-nav{
   
@@ -51,7 +50,7 @@ margin:0;
 }
    
 .sub-nav a:hover{
-color: blue;
+color: #0065FC;
 }
 
 
@@ -67,7 +66,7 @@ flex-basis: 100%;
    border-bottom: 4px solid lightgray;
 }
 .sub-nav a:hover{
-   border-bottom-color: blue;
+   border-bottom-color: #0065FC;
    border-top-color:transparent;
 }
 }
@@ -77,14 +76,17 @@ flex-basis: 100%;
 .tabella{
    padding: 0 2rem;
 }
+.tabella h1{
+   font-size: 25px;
+}
 .ricerca{
    display: flex;
    margin-bottom: 2rem;
-  
+  align-items: center;
    
 }
 .fa-solid.fa-location-dot{
-   padding: 1rem;
+   padding: 17px;
    background-color: #F2F2F2;
    border-radius: 1rem 0 0 1rem;
 }
@@ -95,6 +97,7 @@ flex-basis: 100%;
    border: 1px solid lightgray;
    overflow: auto;
    padding:1rem;
+   text-align-last: start;
 }
 
 .ricerca input::placeholder{
@@ -105,16 +108,16 @@ flex-basis: 100%;
 }
 
 .ricerca button{
-   background-color: blue;
-font-size: large;
-   color: white;
-   font-weight: bold;
+background-color: #0065FC;
+color: white;
+font-weight: 700;
 border-radius: 0 1rem 1rem 0;
-padding: 1rem 2rem;
 cursor: pointer;
-opacity: 0.8;
+opacity: 0.9;
 padding-right: 2rem;
-
+font-size: medium;
+padding: 15Px;
+border: none;
 }
 .ricerca button:hover{
    opacity: 1;
@@ -128,7 +131,7 @@ padding-right: 2rem;
 
 .fas.fa-search{
    display: none;
-   background-color: blue;
+  
 }
  @media(max-width: 800px) {
 .bottone{
@@ -166,7 +169,7 @@ gap: 2rem;
 }
 .fa-solid.fa-money-bill-wave{
   background-color: #DEEBFF;
-  color: blue;
+  color: #0065FC;
   padding: 15px;
   margin-left: -10%;
 border-radius: 2rem;
@@ -175,7 +178,7 @@ border-radius: 2rem;
 
 .fa-solid.fa-child-reaching{
    background-color: #DEEBFF;
-   color: blue;
+   color: #0065FC;
    padding: 15px;
    border-radius: 2rem;
    margin: -5.9px;
@@ -187,7 +190,7 @@ border-radius: 2rem;
 }
 .fa-sharp.fa-solid.fa-heart{
    background-color: #DEEBFF;
-   color: blue;
+   color: #0065FC;
    padding: 15px;
    border-radius: 2rem;
    margin: -5.9px; 
@@ -195,7 +198,7 @@ border-radius: 2rem;
 }
 .fa-solid.fa-dog{
    background-color: #DEEBFF;
-   color: blue;
+   color: #0065FC;
    padding: 15px;
    border-radius: 2rem;
    margin: -4.9px; 
@@ -295,9 +298,7 @@ padding: 1rem;
 }
 }
 
-.blue{
-   color:#0065FC;
-}
+
 .grey{
    color: #DEEBFF;
 }
