@@ -19,7 +19,7 @@ body{
 
   .logo{
    margin-right: auto;
-   padding: 0 2rem
+   padding: 0 2rem;
   }
 
 
@@ -56,9 +56,12 @@ color: #0065FC;
 
 @media(max-width:800px){
    .sub-nav{
-
 order: 1;
 flex-basis: 100%;
+}
+.logo{
+   margin: auto;
+   padding-left: 65px;
 }
 .sub-nav a{
    flex-basis: 50%;
