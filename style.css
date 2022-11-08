@@ -83,6 +83,7 @@ flex-basis: 100%;
    display: flex;
    margin-bottom: 2rem;
   align-items: center;
+  margin-top: 2rem;
    
 }
 .fa-solid.fa-location-dot{
@@ -149,6 +150,11 @@ display: inline;
   align-items: center;
 flex-wrap: wrap;
 gap: 2rem;
+}
+@media(max-width:970px){
+.lista H3{
+   flex-basis: 100%;
+}  
 }
 .lista h3{
   margin-bottom: 6px;
@@ -222,6 +228,7 @@ background-color: #F2F2F2;
    align-items: center;
  gap: 0.6rem;
  margin-top: 2rem;
+ margin-bottom: 1rem;
 }
 
 .fas.fa-info{
@@ -230,7 +237,7 @@ background-color: #F2F2F2;
    border-radius: 1rem;
    width:2rem;
    height:2rem;
-   color: black;
+   color: #0065FC;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -269,6 +276,7 @@ background-color: #F2F2F2;
 }
 .sopra i{
    font-size: large;
+   margin-right: 19px;
 }
 .liberi{
    display: flex;
@@ -309,6 +317,7 @@ padding: 1rem;
    padding: 7px;
    flex-grow: 1;
    min-width: 14rem;
+   box-shadow: 5px 5px 16px rgb(158 158 199 / 15%);
    
 }
 
@@ -332,7 +341,7 @@ cursor: pointer;
 .carte p,
 .carte h3{
    margin: auto;
-   font-size: initial;
+   font-size: 14px;
    padding-left: 1rem;
    padding-bottom: 4px;
 }
@@ -341,7 +350,7 @@ cursor: pointer;
    display: flex;
    max-height: 10rem;
    gap: 1rem;
-   height: 8rem;
+   height: 9rem;
 }
 
 .popolare img{
@@ -376,10 +385,14 @@ cursor: pointer;
    .appartamenti{
   flex-direction: column-reverse;
   }
+  .appartamenti .citta{
+   background-color: white;
+}
   .popolare,
   .citta{
-   margin: 1% -6%;
+   margin: 1% -8%;
 }
+
 .VIP{
    flex-grow: 1;
 }
@@ -412,8 +425,9 @@ flex-direction: column-reverse;
 }
 
 .complicato a{
-   display: flex;
+display: flex;
 margin: 1rem;
+font-weight: bold;
 }
 .complicato{
 
